@@ -13,8 +13,10 @@
 
   <body>
     <%= render 'shared/navbar' %>
-    <%= render 'shared/flashes' %>
-
-    <%= yield %>
+    <div class="main-container">
+    <!-- <div class="main-container" style='background-image: url(<%#= image_path 'background.png' %>);'> -->
+      <%= yield %>
+    </div>
+    <%= render 'shared/footer' %>
   </body>
 </html>
