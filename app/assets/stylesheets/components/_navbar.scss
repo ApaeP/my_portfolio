@@ -32,8 +32,12 @@
 }
 
 .fullstack-title {
-  writing-mode: vertical-lr;
+  // writing-mode: vertical-lr;
   border-right: 1px solid black;
   padding-right: 3rem;
   margin: auto;
+}
+
+#banner-portrait {
+  width: 100%;
 }

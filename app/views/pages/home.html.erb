@@ -1,0 +1,7 @@
+<%= simple_form_for(@contact, remote: true) do |f| %>
+  <%= f.input :name, label: false, placeholder: 'Nom' %>
+  <%= f.input :email, label: false, placeholder: 'Email' %>
+  <%= f.input :phone, label: false, placeholder: 'Téléphone' %>
+  <%= f.input :content, as: :text, label: false, placeholder: 'Votre message' %>
+  <%= f.submit %>
+<% end %>
